@@ -1,0 +1,29 @@
+POST http://localhost:3000/api/main/strand/addNewStrand
+Content-Type: application/json
+
+{
+    "title": "strand",
+    "description": "strand"
+}
+
+###
+
+GET http://localhost:3000/api/main/period/setInitialPeriod
+
+###
+POST http://localhost:3000/api/main/classes/getClassesByStudent
+Content-Type: application/json
+
+{
+    "studentId": "635544f50b8556bf4ec3d5ea"
+}
+
+###
+POST http://localhost:3000/api/main/classes/getGradesByStudent
+Content-Type: application/json
+
+{
+    "studentId": "635544f50b8556bf4ec3d5ea",
+    "semester": "2nd semester",
+    "schoolyear": "2022 - 2023"
+}
